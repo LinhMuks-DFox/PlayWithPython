@@ -64,8 +64,8 @@ Connect Me By [Gmail](muxxum65536@gmail.com)
     * String——字符串
         * `“This is a string !”`
         * `‘This also a string!’`
-        * `“"" This also a string! ""”`
-        * `‘''This also a string''’`
+        * `""" This also a string! """`
+        * `'''This also a string'''`
     * Iterable types可迭代类型
         * Tuple ——元组
         * Set ——集合
