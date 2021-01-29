@@ -116,3 +116,18 @@ foo = "D:\new_project" # 小心换行！
 
 bar = r"D:\new_project" # 单纯的表示一个地址
 ```
+
+#### 字符串函数
+
+*  `str()`
+    * 字符串的构造函数，常用于将某个对象转换成字符串
+
+```python
+my_int = 1
+my_int_str_repr = str(my_int)
+print(my_int_str_repr) # '1'
+```
+
+
+
+* 

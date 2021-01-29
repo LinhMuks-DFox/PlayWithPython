@@ -105,7 +105,7 @@ Python中储存巨大的整数的方法并不是想象中的使用更多的位�
 $$
 \sum^1_{n} (2^{PyLongSHIFT})^n  * k
 $$
-**PyLong_SHIFT**的数值是根据操作系统的位数来决定的，比如64位的系统就是30，否则就是15
+**PyLong_SHIFT**的数值是根据操作系统，或者说CPU的位数来决定的，比如64位的系统就是30，否则就是15
 
 举个栗子：
 
@@ -141,7 +141,7 @@ $$
 所以你可以轻松的写下这样的代码：
 
 ```Python
-9223372043297226753 **3 # 乘方运算： x **2 等价于 求x的平方
+9223372043297226753 **3 # 乘方运算： x ** 2 等价于 求x的平方
 ```
 
 Python也可以快速给你反馈：
@@ -174,7 +174,6 @@ Python Command Line中尝试代码：
 Python3.8源码中的./include/object.h中定义了`PyObject`
 
 ```C
-
 typedef struct _object {
     _PyObject_HEAD_EXTRA; // 一个双向链表
     Py_ssize_t ob_refcnt; // 引用计数
